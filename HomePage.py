@@ -16,5 +16,4 @@ class Home_page(unittest.TestCase):
 
         assert browser.title.__contains__("KAYAK")
         print("Home page has been loaded successfully")
-
         browser.quit()
